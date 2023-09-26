@@ -1,14 +1,13 @@
+package list.Search;
 // Create a class called "BooksCatalog" that has a list of objects of type "Book" as an attribute. 
 // Each book has attributes such as title, author and year of publication. Implement the following methods:
-// addBook(String title, String author, intPublication year): Adds a book to the catalog.
+// addBook(String title, String author, intPublication year): Adds a book to the catalog. 
 // searchByAuthor(String author): Searches for books by author and returns a list of the books found.
 // searchByYearInterval(intstartyear, intendyear): Searches for books published in a given range of years and returns a list of the books found.
 // searchByTitle(String title): Searches for books by title and returns the first book found.
 
 import java.util.ArrayList;
 import java.util.List;
-
-import list.Search.Book;
 
 public class BooksCatalog {
 
